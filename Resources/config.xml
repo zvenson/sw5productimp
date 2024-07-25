@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="boolean">
+            <name>active</name>
+            <label>Active</label>
+            <value>1</value>
+        </element>
+        <element type="text">
+            <name>pricemath</name>
+            <label>Price Calculation</label>
+            <value>1</value>
+        </element>
+        <element type="text">
+            <name>ftphost</name>
+            <label>FTP Host</label>
+            <value></value>
+        </element>
+        <element type="text">
+            <name>ftpuser</name>
+            <label>FTP User</label>
+            <value></value>
+        </element>
+        <element type="text">
+            <name>ftpsecret</name>
+            <label>FTP Password</label>
+            <value></value>
+        </element>
+    </elements>
+</config>
